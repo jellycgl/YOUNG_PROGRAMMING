@@ -1,0 +1,46 @@
+.circles {
+    position: relative;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: black;
+}
+
+#btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+@keyframes k {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+.circle1 {
+    animation: k 1s ease 0s alternate infinite;
+}
+
+.circle2 {
+    animation: k 1s ease 0.2s alternate infinite;
+}
+
+.circle3 {
+    animation: k 1s ease 0.4s alternate infinite;
+}

@@ -1,0 +1,30 @@
+@keyframes rotateAnimate {
+    from {
+        transform: rotate(0deg) skew(-30deg)
+    }
+
+    to {
+        transform: rotate(360deg) skew(-30deg)
+    }
+}
+
+.fan-wrapper {
+    overflow: hidden;
+    position: relative;
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: red;
+}
+
+.fan {
+    position: absolute;
+    right: 0;
+    animation: rotateAnimate 2s linear infinite;
+    /* 这一行很重要，设置左下角为旋转点 */
+    transform-origin: 0% 100%;
+    width: 100px;
+    height: 100px;
+    background: blue;
+}

@@ -1,0 +1,24 @@
+#img-wrapper {
+    perspective: 1200px;
+    position: relative;
+    height: 479px;
+}
+
+#img1,
+#img2 {
+    position: absolute;
+    transition: all 1s linear;
+    backface-visibility: hidden;
+}
+
+#img1 {
+    transform: rotateY(-180deg);
+}
+
+#img-wrapper:hover #img1 {
+    transform: rotateY(-360deg);
+}
+
+#img-wrapper:hover #img2 {
+    transform: rotateY(-180deg);
+}

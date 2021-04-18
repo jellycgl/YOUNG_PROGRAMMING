@@ -1,0 +1,19 @@
+@keyframes marquee {
+    from {
+        transform: translateX(-200px)
+    }
+
+    to {
+        transform: translateX(200px)
+    }
+}
+
+.marquee {
+    overflow: hidden;
+    margin: 100px;
+    width: 200px;
+}
+
+.marquee p {
+    animation: marquee 3s linear infinite;
+}

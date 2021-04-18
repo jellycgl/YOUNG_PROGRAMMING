@@ -1,0 +1,32 @@
+div {
+    text-align: center;
+    overflow: hidden;
+    border: 4px dotted red;
+    border-radius: 40px;
+    width: 400px;
+    background: yellow;
+}
+
+img {
+    width: 100px;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact;
+    font-size: 50pt;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    background: goldenrod;
+    font-family: Courier;
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: underline;
+}

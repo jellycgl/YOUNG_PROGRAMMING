@@ -1,0 +1,31 @@
+#outer {
+    transition: all 1.5s linear;
+}
+
+#inner {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: red;
+    transition: all 1.5s cubic-bezier(.54, .11, .95, .68);
+    margin: 6px 15px;
+}
+
+#btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.outer-active {
+    transform: translateX(300px);
+}
+
+.inner-active {
+    transform: translateY(300px) scale(0.3);
+}
